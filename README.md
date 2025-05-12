@@ -11,7 +11,9 @@ Optionally, the calculations can be run and plotted by using a Python (ctypes) w
 
 - To run only the C++ code: 
     - Compile: 
-            g++ -std=c++17 -fopenmp integration_methods.cpp -o integration_methods
+        ```
+        g++ -std=c++17 -fopenmp integration_methods.cpp -o integration_methods
+        ```
 
     - Execute:    
             ./integration_methods
