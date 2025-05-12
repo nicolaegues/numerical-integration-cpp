@@ -36,11 +36,13 @@ The slurm script to run the code in a High-Performance Computing (HPC) environme
 
 ### Output plots
 
-<img src="https://github.com/nicolaegues/numerical-integration-cpp/blob/main/plots/error_vs_spacing.png" width="75%" height="75%">
+- Absolute Error vs Spacing: 
 
+    <img src="https://github.com/nicolaegues/numerical-integration-cpp/blob/main/plots/error_vs_spacing.png" width="75%" height="75%">
 
+- Time and Speedup vs Number of Threads: 
 
-<img src="https://github.com/nicolaegues/numerical-integration-cpp/blob/main/plots/time_vs_threads.png" width="75%" height="75%">
+    <img src="https://github.com/nicolaegues/numerical-integration-cpp/blob/main/plots/time_vs_threads.png" width="75%" height="75%">
 
 
 
