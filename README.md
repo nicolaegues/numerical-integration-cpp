@@ -15,16 +15,22 @@ Optionally, the calculations can be run and plotted by using a Python (ctypes) w
         g++ -std=c++17 -fopenmp integration_methods.cpp -o integration_methods
         ```
 
-    - Execute:    
-            ./integration_methods
+    - Execute: 
+        ```   
+        ./integration_methods
+        ```
 
 - Alternatively, to run the code and plot the results: 
 
     - Compile the C++ source code into a shared library:
-            g++ -std=c++17 -fopenmp -fPIC -shared integration_methods.cpp -o integration_library.so
+        ```
+        g++ -std=c++17 -fopenmp -fPIC -shared integration_methods.cpp -o integration_library.so
+        ```
 
     - Run the Python wrapper: 
-            python integration_wrapper.py
+        ```
+        python integration_wrapper.py
+        ```
 
 The slurm script to run the code in a High-Performance Computing (HPC) environment is included under  `run_integration_hpc.sh`.
 
