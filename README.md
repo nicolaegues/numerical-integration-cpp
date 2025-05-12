@@ -40,7 +40,7 @@ The slurm script to run the code in a High-Performance Computing (HPC) environme
 
     <img src="https://github.com/nicolaegues/numerical-integration-cpp/blob/main/plots/error_vs_spacing.png" width="65%" height="65%">
 
-- Time and Speedup vs Number of Threads: 
+- Time and Speedup vs Number of Threads for the Midpoint method: 
 
     <img src="https://github.com/nicolaegues/numerical-integration-cpp/blob/main/plots/time_vs_threads.png" width="65%" height="65%">
 
